@@ -1,0 +1,71 @@
+body {
+	background-color: black;
+}
+
+.fields {
+	display: flex;
+	flex-direction: column;
+	padding-left: 50px;
+	padding-top: 10px;
+}
+
+.bigContainer {
+	border: 1px solid silver;
+	width: 500px;
+	height: 700px;
+	margin:auto;
+	margin-top:75px;
+	border-radius: 25px;
+	background-color: rgb(246,246,246);
+}
+
+header {
+	border:1px solid transparent;
+	width: 500px;
+	text-align: center;
+	background-color: lightblue;
+	color: white;
+	border-radius: 25px;
+}
+
+input {
+	width: 400px;
+	height: 35px;
+	outline:none;
+	font-size: 15px;
+	padding-left: 5px;
+	margin-top:15px;
+}
+
+select {
+	width: 407px;
+	height: 35px;
+	outline:none;
+	font-size: 15px;
+	margin-top:15px;
+}
+
+textarea {
+	width: 395px;
+	height: 75px;
+	outline: none;
+	font-size: 15px;
+	padding-left: 10px;
+	margin-top: 15px;
+}
+
+button {
+	margin-left: 150px;
+	margin-top: 50px;
+	width: 200px;
+	height: 40px;
+	background-color: lightblue;
+	color: white;
+	border-radius: 25px;
+	font-size: 25px;
+	outline: none;
+}
+
+button:active{
+	background-color: grey;
+}
